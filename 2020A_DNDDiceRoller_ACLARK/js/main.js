@@ -59,5 +59,5 @@ function rollDice(dicePicked){
     // grabs the img placeholder with "document.getElementById("die")"
     // "dicePicked.id" uses the name of the cases to call the dice from the folder they are in.
     // "random+dicePicked.id" adds the random number picked from "Math.random" and adds it to the name of the dice file it has selected to pull that specific img
-    document.getElementById('die').src = "../imgs/defaultDie/"+dicePicked.id+"/"+random+dicePicked.id+".png";
+    document.getElementById('die').src = "imgs/defaultDie/"+dicePicked.id+"/"+random+dicePicked.id+".png";
 }
