@@ -1,0 +1,89 @@
+body{
+    color: #262626;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #bfbfbf;
+}
+/* Header */
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+/* End of Header */
+
+/* Where imgs show up */
+h3{
+    font-family: 'Cinzel Decorative', cursive; 
+    padding-top: 5%; 
+    font-size: large;
+    text-align: center;
+}
+.showRoll{
+    background-color: #facade;
+    padding: 10px;
+}
+#die{
+    display: block;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 90%;
+}
+/* End of where imgs show up */
+
+/* Dice Selction */
+.pickDie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#fourSidedDie{
+    width: 50%;
+}
+#sixSidedDie{
+    width: 50%;
+}
+#eightSidedDie{
+    width: 50%;
+}
+#tenSidedDie{
+    width: 50%;
+}
+#twelveSidedDie{
+    width: 50%;
+}
+#twentySidedDie{
+    width: 50%;
+}
+/* End of Dice Selection */
+
+/* for mobile */
+@media screen and (max-width: 768px) {
+    #fourSidedDie{
+        width: 15%;
+    }
+    #sixSidedDie{
+        width: 15%;
+    }
+    #eightSidedDie{
+        width: 15%;
+    }
+    #tenSidedDie{
+        width: 15%;
+    }
+    #twelveSidedDie{
+        width: 15%;
+    }
+    #twentySidedDie{
+        width: 15%;
+    }
+    .pickDie{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+}

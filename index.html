@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--End of Meta Tags -->
+
+    <!-- Css Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- End of Css Links -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <!-- End of Fonts -->
+
+    <!-- Site Title -->
+    <title>D&amp;D Dice Roller</title>
+    <!-- End of Site Title -->
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Header -->
+        <h1>D&amp;D Dice Roller</h1>
+        <!-- End of Header -->
+
+            <div class="row">
+                <!-- display -->
+                <div class="col-md-8 col-sm-12 showRoll">
+                    <div id="dieRolled">
+                        <img id="die" src="imgs/blank.png" alt="blank">
+                    </div>
+                </div>
+                <!-- End of Display -->
+
+                <!-- Dice Options -->
+                <div class="col-md-4 col-sm-12 showDie">
+                    <h3>Click a Die to Roll:</h3>
+                    <img id="fourSidedDie" class="pickDie" src="imgs/defaultDie/fourSidedDie/4fourSidedDie.png">
+                    <img id="sixSidedDie" class="pickDie" src="imgs/defaultDie/sixSidedDie/6sixSidedDie.png">
+                    <img id="eightSidedDie" class="pickDie" src="imgs/defaultDie/eightSidedDie/8eightSidedDie.png">
+                    <img id="tenSidedDie" class="pickDie" src="imgs/defaultDie/tenSidedDie/10tenSidedDie.png">
+                    <img id="twelveSidedDie" class="pickDie" src="imgs/defaultDie/twelveSidedDie/12twelveSidedDie.png">
+                    <img id="twentySidedDie" class="pickDie" src="imgs/defaultDie/twentySidedDie/20twentySidedDie.png">
+                </div>
+                <!-- End of Dice Options -->
+            </div>
+    </div>
+    <!-- End of Container -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
